@@ -324,6 +324,12 @@ header ul li:hover {
   }
 }
 
+@media (max-width: 700px) {
+  .stay-prod .container {
+    gap: 100px;
+  }
+}
+
 .stay-prod .info {
   width: calc(50% - 30px);
 }
@@ -341,7 +347,7 @@ header ul li:hover {
 }
 
 .stay-prod .info h2 {
-  font-size: 42px;
+  font-size: 38px;
   font-family: var(--heading-font);
   color: var(--dark-blue);
 }
@@ -354,7 +360,7 @@ header ul li:hover {
 
 @media (max-width: 700px) {
   .stay-prod .info h2 {
-    font-size: 26px;
+    font-size: 20px;
   }
 }
 
@@ -490,6 +496,12 @@ header ul li:hover {
   padding: 100px 0;
 }
 
+@media (max-width: 767px) {
+  .early-access {
+    padding: 65px 0;
+  }
+}
+
 @media (min-width: 768px) {
   .early-access .container {
     display: flex;
@@ -500,7 +512,7 @@ header ul li:hover {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .early-access .container {
-    gap: 85px;
+    gap: 70px;
   }
 }
 
@@ -545,6 +557,7 @@ header ul li:hover {
 .early-access form {
   flex: 1;
   max-width: 500px;
+  margin: 0 auto;
 }
 
 .early-access .mail {
@@ -583,7 +596,7 @@ header ul li:hover {
 
 footer {
   background-color: var(--dark-blue);
-  padding: 130px 0 90px;
+  padding: 110px 0 90px;
   color: rgb(255 255 255 / 85%);
 }
 
@@ -687,8 +700,8 @@ footer .social {
 }
 
 footer .social a {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border: 1px solid white;
   border-radius: 50%;
   display: flex;
@@ -700,6 +713,7 @@ footer .social a {
 footer .social a i {
   color: rgb(255 255 255 / 85%);
   transition: 0.3s;
+  font-size: 14px;
 }
 
 footer .social a:first-of-type:hover i {
